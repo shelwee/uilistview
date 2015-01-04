@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    
+	<declare-styleable name="UIListView">
+		<attr name="alignCenter" format="boolean"/> 
+		<attr name="textBold" format="boolean"/>
+ 	    <attr name="showChevron" format="boolean"/>
+ 	    <attr name="singleItem" format="boolean"/>
+	</declare-styleable>
+  
+</resources>
