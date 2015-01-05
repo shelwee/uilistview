@@ -8,7 +8,26 @@ uilistview基于[android-uitableview](https://github.com/thiagolocatelli/android
 ![](https://github.com/shelwee/ImageStorage/raw/master/UiListView/uilistview-demo2.png)
 
 ###用法
-参照demo[UiListView-demo](https://github.com/shelwee/uilistview/tree/master/UiListView-demo)
+参照demo [UiListView-demo](https://github.com/shelwee/uilistview/tree/master/UiListView-demo)
+
+这个项目是基于android-uitableview的扩展，使其更加灵活。只需在用法中增加属性如：
+```xml
+<com.shelwee.uilistview.ui.UiListView
+		        android:id="@+id/uilist3"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_below="@id/uilist2"
+		        android:layout_marginTop="5dp"
+		        apps:alignCenter="true"
+		        apps:showChevron="false"
+		        apps:singleItem="true"
+		        apps:textBold="false"/>
+```
+
+1.alignCenter:文字介绍是否居中显示
+2.showChevron: 是否显示右箭头
+3.singleItem:　是否每条单独显示，可参照图片
+4.textBold: 文字是否加粗显示
 
 ###License
 >Copyright 2014 ShelWee(http://www.shelwee.com)
