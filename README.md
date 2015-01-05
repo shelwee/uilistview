@@ -24,10 +24,10 @@ uilistview基于[android-uitableview](https://github.com/thiagolocatelli/android
 		        apps:textBold="false"/>
 ```
 
-1.alignCenter:文字介绍是否居中显示
-2.showChevron: 是否显示右箭头
-3.singleItem:　是否每条单独显示，可参照图片
-4.textBold: 文字是否加粗显示
+1. alignCenter:文字介绍是否居中显示
+2. showChevron: 是否显示右箭头
+3. singleItem:　是否每条单独显示，可参照图片
+4. textBold: 文字是否加粗显示
 
 ###License
 >Copyright 2014 ShelWee(http://www.shelwee.com)
